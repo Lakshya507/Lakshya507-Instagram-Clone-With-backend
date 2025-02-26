@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
 
         try {
-            const response = await fetch("http://localhost:5000/login", {
+            const response = await fetch("https://lakshya507-instagram-clone-with-backend.onrender.com/login", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
